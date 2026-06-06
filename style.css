@@ -18,12 +18,19 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
     backdrop-filter: blur(30px);
-    transform: scale(0);
-    animation: zoom-in 1s ease forwards;
+    -webkit-backdrop-filter: blur(30px);
+    /* Safe fallback display */
+    transform: scale(1);
+    animation: zoom-in 1s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 @keyframes zoom-in {
-    100%{
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
         transform: scale(1);
+        opacity: 1;
     }
 }
 
