@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prabir Rahman | Full Stack Developer</title>
+  <!-- Google Fonts - Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="#" class="logo">Portfolio.</a>
+      <nav class="navbar">
+        <a href="#" class="nav-link active" data-tab="home-tab">Home</a>
+        <a href="#" class="nav-link" data-tab="about-tab">About</a>
+        <a href="#" class="nav-link" data-tab="portfolio-tab">Portfolio</a>
+        <a href="#" class="nav-link" data-tab="services-tab">Service</a>
+        <a href="#" id="contact-nav-link">Contact</a>
+      </nav>
+      <div class="menu-icon" id="menu-icon">
+        <i class="ri-menu-line"></i>
+      </div>
+    </header>
+    <section class="home tab-content active" id="home-tab">
+      <div class="home-detail">
+        <h1>Prabir Rahman</h1>
+        <h2>FULL STACK DEVELOPER</h2>
+        <p>
+          Hello! I am a passionate Full Stack Developer currently in my 4th
+          semester of BTech CSE at Dhemaji Engineering College. I specialize
+          in crafting end-to-end web experiences, seamlessly integrating
+          responsive user interfaces with efficient database management
+          (DBMS). I am driven by curiosity and love turning complex problems
+          into scalable, real-world tech solutions."
+        </p>
+        <div class="contact-details">
+          <a href="mailto:prabirrahman1@gmail.com" class="contact-item">
+            <i class="ri-mail-line"></i>
+            <span>prabirrahman1@gmail.com</span>
+          </a>
+          <a href="tel:+916003100508" class="contact-item">
+            <i class="ri-phone-line"></i>
+            <span>+91 6003100508</span>
+          </a>
+        </div>
+        <div class="download-social">
+          <a href="Prabir Rahman resume.pdf" download="Prabir_Rahman_Resume.pdf" class="btn">Download Resume</a>
+          <div class="social-icons">
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <div class="img-box">
+          <img src="45457u.jpeg" alt="" class="img-01" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about tab-content" id="about-tab">
+      <div class="tab-header">
+        <h2>About Me</h2>
+        <p>Learn more about my background, education, and skills</p>
+      </div>
+      <div class="about-content">
+        <div class="about-card">
+          <h3>Education</h3>
+          <p><strong>BTech in Computer Science & Engineering</strong></p>
+          <p>Dhemaji Engineering College</p>
+          <p class="subtitle">Currently in 4th Semester</p>
+        </div>
+        <div class="about-card">
+          <h3>Technical Skills</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Full Stack Development</span>
+            <span class="skill-tag">SCSS / CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">DBMS / SQL</span>
+            <span class="skill-tag">Responsive UI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio tab-content" id="portfolio-tab">
+      <div class="tab-header">
+        <h2>My Projects</h2>
+        <p>A showcase of some of my projects and experiments</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>This beautiful personal portfolio featuring glassmorphic design and smooth tab switching.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>SCSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Full Stack Web App</h3>
+            <p>Robust backend API built using Node.js and Express connected to a secure relational database.</p>
+            <div class="project-tags">
+              <span>Node.js</span>
+              <span>DBMS</span>
+              <span>API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services tab-content" id="services-tab">
+      <div class="services-header">
+        <h2>My Services</h2>
+        <p>Providing high-quality modern web development services</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="ri-node-js"></i></div>
+          <h3>Full Stack Developer</h3>
+          <p>Building robust, scalable backend architectures and RESTful APIs using Node.js, integrated with dynamic frontend interfaces.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon"><i class="ri-palette-line"></i></div>
+          <h3>SCSS & Modern Styling</h3>
+          <p>Crafting responsive, clean, and maintainable styles using SCSS/CSS. Specializing in fluid animations and custom layouts.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon"><i class="ri-database-2-line"></i></div>
+          <h3>Database Management</h3>
+          <p>Designing efficient and secure DBMS architectures, ensuring seamless data integration, queries, and management.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div class="contact-modal" id="contact-modal">
+      <div class="modal-card">
+        <button class="close-btn" id="close-modal"><i class="ri-close-line"></i></button>
+        <h3>Get in Touch</h3>
+        <p>Feel free to reach out for collaborations or opportunities!</p>
+        
+        <div class="modal-links">
+          <a href="mailto:prabirrahman1@gmail.com" class="modal-link-card">
+            <div class="icon-box"><i class="ri-mail-line"></i></div>
+            <div class="link-info">
+              <span class="label">Email Me</span>
+              <span class="value">prabirrahman1@gmail.com</span>
+            </div>
+          </a>
+          
+          <a href="tel:+916003100508" class="modal-link-card">
+            <div class="icon-box"><i class="ri-phone-line"></i></div>
+            <div class="link-info">
+              <span class="label">Call Me</span>
+              <span class="value">+91 6003100508</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+    const contactNavLink = document.getElementById('contact-nav-link');
+    const contactModal = document.getElementById('contact-modal');
+    const closeModal = document.getElementById('close-modal');
+
+    // Toggle Mobile Menu
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+      const icon = menuIcon.querySelector('i');
+      if (navbar.classList.contains('active')) {
+        icon.classList.replace('ri-menu-line', 'ri-close-line');
+      } else {
+        icon.classList.replace('ri-close-line', 'ri-menu-line');
+      }
+    });
+
+    // Close Mobile Menu on Link Click
+    document.querySelectorAll('.navbar a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        navbar.classList.remove('active');
+        menuIcon.querySelector('i').classList.replace('ri-close-line', 'ri-menu-line');
+      });
+    });
+
+    // Contact Modal Toggle
+    contactNavLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      contactModal.classList.add('show');
+    });
+
+    closeModal.addEventListener('click', () => {
+      contactModal.classList.remove('show');
+    });
+
+    // Close modal when clicking outside the card
+    contactModal.addEventListener('click', (e) => {
+      if (e.target === contactModal) {
+        contactModal.classList.remove('show');
+      }
+    });
+
+    // Tab switching logic
+    const navLinks = document.querySelectorAll('.navbar a.nav-link');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Remove active class from all links
+        navLinks.forEach(lnk => lnk.classList.remove('active'));
+        
+        // Add active class to clicked link
+        link.classList.add('active');
+        
+        // Hide all tabs
+        tabContents.forEach(tab => {
+          tab.classList.remove('active');
+        });
+        
+        // Show target tab
+        const targetTabId = link.getAttribute('data-tab');
+        const targetTab = document.getElementById(targetTabId);
+        if (targetTab) {
+          targetTab.classList.add('active');
+        }
+      });
+    });
+
+    // Logo clicks reset to home
+    document.querySelector('.logo').addEventListener('click', (e) => {
+      e.preventDefault();
+      const homeLink = document.querySelector('[data-tab="home-tab"]');
+      if (homeLink) {
+        homeLink.click();
+      }
+    });
+  </script>
+</body>
+
+</html>
